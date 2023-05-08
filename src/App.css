@@ -1,0 +1,125 @@
+/* import the DropDownButton dependency styles */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Maven+Pro:wght@500&family=Ysabeau&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ysabeau";
+}
+
+
+/* Header */
+header {
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  background: #BC983C;
+  padding: 1em;
+  
+}
+
+/* Nav */
+nav{
+   display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+}
+
+.nav-list {
+ display: flex;
+ margin: auto;
+ gap: 4rem;
+}
+
+nav a, li {
+  margin: auto;
+  font-family: 'Ysabeau';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+text-transform: capitalize;
+text-decoration-line: none;
+list-style: none;
+
+/* White */
+
+color: #FFFFFF;
+
+}
+
+
+.furnito-text {
+  font-family: "Ysabeau";
+  font-size: 32px;
+  color: black;
+}
+
+.nav-icons {
+  display: flex;
+  gap: 15px;
+  padding: 1em;
+}
+
+.icon {
+  font-size: 24px;
+}
+
+
+
+/* Search bar */
+.nav-list .css-md26zr-MuiInputBase-root-MuiOutlinedInput-root {
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #FFFFFF;
+    line-height: 1.4375em;
+    letter-spacing: 0.00938em;
+    box-sizing: border-box;
+    position: relative;
+    cursor: text;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    border-radius: 30px;
+}
+
+
+
+
+
+.search {
+    width: 30%;
+    color: white;
+    font-family: "Ysabeau";
+    
+}
+
+
+
+#outlined-basic {
+  height: 10%;
+  background-color: #2B495E;
+  border-radius: 30px;
+  color: white;
+}
+
+
+
+
