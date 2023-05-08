@@ -1,17 +1,19 @@
+import "./App.css";
 
-import './App.css'
-
-import Navbar from './Navbar/Navbar'
+import Navbar from "./Navbar/Navbar";
+import Hero from "./Hero/Hero";
 
 function App() {
-
-
   return (
     <>
-      
-      <Navbar />
+      <div>
+        <header>
+          <Navbar />
+        </header>
+        <Hero />
+      </div>
     </>
   );
 }
 
-export default App
+export default App;

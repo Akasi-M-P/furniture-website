@@ -3,22 +3,16 @@ import { useState } from "react";
 import Dropdown from "./Dropdown";
 import TextField from "@mui/material/TextField";
 import { MdFavoriteBorder } from "react-icons/md";
-import {TbShoppingCartX} from "react-icons/tb"
-import {HiOutlineUser} from "react-icons/hi"
-
-
-
+import { TbShoppingCartX } from "react-icons/tb";
+import { HiOutlineUser } from "react-icons/hi";
 
 const Navbar = () => {
-  
-   const [inputText, setInputText] = useState("");
+  const [inputText, setInputText] = useState("");
   let inputHandler = (e) => {
     //convert input text to lower case
     var lowerCase = e.target.value.toLowerCase();
     setInputText(lowerCase);
   };
- 
-  
 
   return (
     <header>

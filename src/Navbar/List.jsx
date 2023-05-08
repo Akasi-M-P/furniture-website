@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
 import { React, useState } from "react";
-import data from "./ListData.json";
+import data from "../Components/Navbar/ListData.json";
 
 function List(props) {
   const filteredData = data.filter((el) => {

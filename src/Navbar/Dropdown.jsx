@@ -44,6 +44,8 @@ export default function Dropdown() {
                 </a>
               )}
             </Menu.Item>
+          </div>
+          <div className="py-1">
             <Menu.Item>
               {({ active }) => (
                 <a
@@ -72,6 +74,8 @@ export default function Dropdown() {
                 </a>
               )}
             </Menu.Item>
+          </div>
+          <div className="py-1">
             <Menu.Item>
               {({ active }) => (
                 <a
@@ -100,6 +104,8 @@ export default function Dropdown() {
                 </a>
               )}
             </Menu.Item>
+          </div>
+          <div className="py-1">
             <Menu.Item>
               {({ active }) => (
                 <a
